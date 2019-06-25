@@ -1,0 +1,1 @@
+<div id="sidebar"><h3>Categories</h3><p><a href="http://tncakes.tk/cakes">Cakes</a></p><p><a href="http://tncakes.tk/cupcakes">Cupcakes</a></p><p><a href="http://tncakes.tk/cookies">Cookies</a></p><p><a href="http://tncakes.tk/donuts">Donuts</a></p></div>

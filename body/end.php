@@ -1,0 +1,1 @@
+<style type="text/css">.card{flex-direction:column;justify-content:space-around;align-items:center;padding:5vw}h1{color:var(--secondary-color)}</style><div id="main"><div class="card"><h1> Thank You </h1><p> Your order has been received and will be delivered by the scheduled delivery date. </p><button><a href="http://tncakes.tk">Continue Shopping</a></button></div></div>
