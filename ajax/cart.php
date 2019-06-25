@@ -1,0 +1,1 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/head/connect.php");session_start();$email=$_SESSION['Email'];if(isset($_POST["product"])){$product=$_POST["product"];$delete=mysqli_query($con,"DELETE FROM cart WHERE email='$email' AND product='$product'");echo "Success";}
