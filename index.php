@@ -1,0 +1,1 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/head/header.php");?><div id="body"><?php include($_SERVER['DOCUMENT_ROOT']."/head/sidebar.php");?><?php include($_SERVER['DOCUMENT_ROOT']."/body/index.php");?></div><?php include($_SERVER['DOCUMENT_ROOT']."/head/footer.php");?>

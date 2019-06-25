@@ -1,0 +1,1 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/head/header.php");?><div id="body"><?php if(isset($_SESSION['Email'])){echo"<meta http-equiv=\"refresh\" content=\"0; url=http://tncakes.tk\">";}?><?php include($_SERVER['DOCUMENT_ROOT']."/body/forgot.php");?></div><?php include($_SERVER['DOCUMENT_ROOT']."/head/footer.php");?>

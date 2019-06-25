@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^end$ end.php
+RewriteRule ^end/$ end.php
+
+RewriteRule ^cart$ cart.php
+RewriteRule ^cart/$ cart.php
+
+RewriteRule ^checkout$ checkout.php
+RewriteRule ^checkout/$ checkout.php
+
+RewriteRule ^profile$ profile.php
+RewriteRule ^profile/$ profile.php
+
+RewriteRule ^forgot$ forgot.php
+RewriteRule ^forgot/$ forgot.php
+RewriteRule ^forgot/([a-zA-Z0-9]+)$ forgot.php?uid=$1
+RewriteRule ^forgot/([a-zA-Z0-9]+)/$ forgot.php?uid=$1
+
+RewriteRule ^confirmation/([a-zA-Z0-9]+)$ confirmation.php?uid=$1
+RewriteRule ^confirmation/([a-zA-Z0-9]+)/$ confirmation.php?uid=$1
+
+RewriteRule ^([a-zA-Z0-9]+)$ category.php?category=$1
+RewriteRule ^([a-zA-Z0-9]+)/$ category.php?category=$1
+
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ item.php?item=$2&category=$1
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/$ item.php?item=$2&category=$1
+
+#use [NC, L] if you want to strictly use the beautified urls
